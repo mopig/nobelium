@@ -39,7 +39,7 @@ const BLOG = {
     gitalkConfig: {
       repo: 'git-talk', // The repository of store comments
       owner: 'mopig',
-      admin: [],
+      admin: ['mopig'],
       clientID: '1f75b79ce564586b11c1',
       clientSecret: 'a6cb93130d5ee8951660fb78120c6a4f426ef026',
       distractionFreeMode: false
