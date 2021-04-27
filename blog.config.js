@@ -1,9 +1,9 @@
 const BLOG = {
-  title: '小猪也叫佩奇',
+  title: '小猪',
   author: '小猪',
   email: 'leo@xiaozhu.dev',
   link: 'https://note.xiaozhu.dev',
-  description: '小猪的网络日志',
+  description: '也叫佩奇',
   lang: 'zh-CN',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -35,13 +35,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
+      repo: 'git-talk', // The repository of store comments
+      owner: 'mopig',
       admin: [],
-      clientID: '',
-      clientSecret: '',
+      clientID: '1f75b79ce564586b11c1',
+      clientSecret: 'a6cb93130d5ee8951660fb78120c6a4f426ef026',
       distractionFreeMode: false
     }
   }
